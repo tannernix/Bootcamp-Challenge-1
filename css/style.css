@@ -1,0 +1,156 @@
+/* Universal tag to change entire pages border size */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* changed the background color to white */
+body {
+    background-color: #d9dcd6;
+}
+
+/* changing the header words to give padding, color and font */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changes only the h1 element to have bigger font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the the color of three letters (seo) in the header word */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Only changes the three words on the top right in the header class to give different attributes */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+ /* makes the unordered list have no bullets */
+.header div ul {
+    list-style-type: none;
+}
+
+/* makes the list in the header display on one row instead of a column */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* makes the colors on the words in the header stay white when clicked */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* changes all the paragraph elements to 16 px */
+p {
+    font-size: 16px;
+}
+
+/* the main big image at the top and how it is displayed on the screen */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* changes the layout of the images for "search engine optimization", and "social media marketing" */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* changes the layout of the image for "Online reputation management" */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* changes the entire section class for all divs in it. Including divs of "search-engine-optimization", "online-reputation-management", and "social-media-marketing" */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* changes the section class for all the different benifit classes */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* makes these three clases to have more margin and color white */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* changes the h3 text in these three classes to have text align center */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* aligns the images for these three classes */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+ /* makes these three class sections have more spacing and color and font */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* makes a max height for the image of these three classes */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* changes the h2 text in these three classes */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* makes the footer text have padding and center it */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* only changes the h2 text of the footer */
+.footer h2 {
+    font-size: 20px;
+}
